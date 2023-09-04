@@ -1,14 +1,16 @@
-.container{
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     height: 100vh;
-}
-.gameboard {
+  }
+  
+  .gameboard {
+    display: flex;
+    flex-wrap: wrap;
     width: 300px;
     height: 300px;
     border: solid 2px black;
-    display: flex;
-    flex-wrap:wrap;
-}
+  }
+  
